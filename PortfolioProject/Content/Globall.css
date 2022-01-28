@@ -1,0 +1,23 @@
+﻿.background-item {
+    position: absolute;
+    z-index: -2;
+    height: 100%;
+    width: 100%;
+}
+body {
+    color: #007c00;
+    background-image: url("Background.jpg");
+}
+.transparent-item {
+    background-color: #3b444b90;
+    color: white;
+}
+
+.spacer-horizontal{
+    width: 100%;
+    height: 5vh;
+}
+.cv-photo{
+    height: 10vh;
+    width: 10 vw;
+}

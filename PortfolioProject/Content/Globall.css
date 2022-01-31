@@ -4,8 +4,20 @@
     height: 100%;
     width: 100%;
 }
+::-webkit-scrollbar{
+    width: 6px;
+}
+::-webkit-scrollbar-track {
+    background: #393E6F;
+}
+::-webkit-scrollbar-thumb {
+    background: #393B44;
+}
+    ::-webkit-scrollbar-thumb:hover {
+        background: #3D2E4F;
+    }
 body {
-    color: #007c00;
+    color: white;
     background-image: url("Background.jpg");
 }
 .transparent-item {
@@ -20,4 +32,7 @@ body {
 .cv-photo{
     height: 10vh;
     width: 10 vw;
+}
+.spread{
+    flex-direction: column;
 }

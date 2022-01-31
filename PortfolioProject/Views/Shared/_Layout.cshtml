@@ -20,10 +20,20 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
                         <li class="nav-item">
+                            <a href="https://www.linkedin.com/in/maciek-nowowiejski-77681920b/">
+                                <img src="https://img.icons8.com/color/48/000000/linkedin.png" />
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://github.com/Goldin190">
+                                <img src="https://img.icons8.com/stickers/48/000000/github.png" />
+                            </a>
+                        </li>
+                        <li class="nav-item">
                             @Html.ActionLink("Strona główna", "Index", "Home", null, new { @class = "nav-link" })
                         </li>
                         <li class="nav-item">
-                            @Html.ActionLink("O mnie", "About", "Home", null, new { @class = "nav-link" })
+                            @Html.ActionLink("Projekty", "Projects", "Home", null, new { @class = "nav-link" })
                         </li>
                         <li class="nav-item">
                             @Html.ActionLink("Kontakt", "Contact", "Home", null, new { @class = "nav-link" })
@@ -42,7 +52,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - Moja aplikacja ASP.NET</p>
+            <p>&copy; @DateTime.Now.Year - Portfolio Maciej Nowowiejski wykonane w ASP.NET</p>
         </footer>
     </div>
 

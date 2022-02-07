@@ -1,10 +1,12 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title - moja aplikacja platformy ASP.NET</title>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
     @Styles.Render("~/Content/Globall.css")
@@ -39,7 +41,7 @@
                             @Html.ActionLink("Kontakt", "Contact", "Home", null, new { @class = "nav-link" })
                         </li>
                         <li>
-                            
+
                         </li>
                     </ul>
 
@@ -53,9 +55,10 @@
         <hr />
         <footer>
             <p>&copy; @DateTime.Now.Year - Portfolio Maciej Nowowiejski wykonane w ASP.NET</p>
+            <a href="https://www.flaticon.com/free-icons/contact" title="contact icons" class="h6">Contact icons created by Smashicons - Flaticon</a>
         </footer>
     </div>
-
+    
     @Scripts.Render("~/Scripts/bootstrap.bundle.js")
     @Scripts.Render("~/Scripts/jquery-3.6.0.js")
     @RenderSection("scripts", required: false)

@@ -1,17 +1,35 @@
 ﻿@{
     ViewBag.Title = "Contact";
+    Styles.Render("~/Content/Contact.css");
+
 }
 <h2>@ViewBag.Title.</h2>
 <h3>@ViewBag.Message</h3>
 
-<address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
-    <abbr title="Phone">P:</abbr>
-    425.555.0100
-</address>
-
-<address>
-    <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-</address>
+<div class="row">
+    <div class="transparent-item row col-12 p-4">
+        <div class="col-xl-6 col-lg-6 col-sm-12 col-md-12">
+            <div class="row">
+                <div class="col-5">Adres E-mail</div>
+                <div class="col-5"><a href="mailto:some@email.com" target="_blank" class="link-info">nowowiejski.maciek@gmail.com</a></div>
+            </div>
+            <div class="row">
+                <div class="col-5">Telefon</div>
+                <div class="col-5">+48 509-445-137</div>
+            </div>
+            <div class="row">
+                <div class="col-5">LinkedIn</div>
+                <div class="col-5"><a href="https://www.linkedin.com/in/maciek-nowowiejski-77681920b/" target="_blank" class="link-info">Profil</a></div>
+            </div>
+            <div class="row">
+                <div class="col-5">LinkedIn</div>
+                <div class="col-5"><a href="https://www.linkedin.com/in/maciek-nowowiejski-77681920b/" target="_blank" class="link-info">Profil</a></div>
+            </div>
+        </div>
+        <div class="col-xl-6 col-lg-6 col-sm-12 col-md-12">
+            <img src="~/Content/contact.png" class="img-fluid opacity-50" />    
+        </div>
+    </div>
+</div>
+<script src="https: //maps.googleapis.com/maps/api/js?key =YOUR_API_KEY&callback =initMap&libraries =&v =weekly"></script>
+@Scripts.Render("~/Content/Contact.js")

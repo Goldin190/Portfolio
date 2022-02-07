@@ -1,7 +1,63 @@
 ﻿@{
-    ViewBag.Title = "About";
+    ViewBag.Title = "Projekty";
 }
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
 
-<p>Use this area to provide additional information.</p>
+<div class="row mb-5">
+    <div class="col-lg-2 col-md-2 col-xl-2 col-sm-1 "></div>
+    <div class="col-xl-8 col-sm-12 col-lg-8  col-md-8 mb-4 ps-1">
+        <div class="p-4 mb-4 rounded-3 transparent-item row h-100">
+            <span class="fw-bold display-4 p-1 text-center">Projekty</span>
+            <p class="text-center">
+                Lista skończonych projektów w różnych technologiach
+            </p>
+
+        </div>
+    </div>
+    <div class="col-lg-2 col-md-2 col-xl-2 col-sm-1 "></div>
+</div>
+<div class="row">
+    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 mb-4 ps-1 ">
+        <div class="p-4 mb-4 rounded-3 transparent-item row  ms-1 me-1 h-100">
+            <span class="fw-bold display-6  p-2">Biuro Napraw</span>
+            <div>
+                <img src="~/Content/Biuro Napraw.png" class="img-fluid img-fluid" />
+            </div>
+            <div>
+                <span class="badge bg-secondary">C#</span>
+                <span class="badge bg-secondary">.NET Framework</span>
+                <span class="badge bg-secondary">Windows Forms</span>
+                <span class="badge bg-secondary">SQL</span>
+                <span class="badge bg-secondary">Postres SQL</span>
+                <span class="badge bg-secondary">C#</span>
+                <span class="badge bg-secondary">LINQ</span>
+            </div>
+            <p class="">
+                Biuro Napraw to projekt do zarządzania telefonami. Wykonany został na zlecenie wewątrz firmy RCI Olsztyn
+                Do ukończenia wykorzystałem Windows Forms. Operacje CRUD są ograniczone według zaleceń.
+            </p>
+            <a class="btn btn-dark" target="_blank" href="https://github.com/Goldin190/Biuro-Napraw" role="button">GitHub Link</a>
+        </div>
+    </div>
+    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 mb-4 ps-1 ">
+        <div class="p-4 mb-4 rounded-3 transparent-item row ms-1 me-1 h-100">
+            <span class="fw-bold display-6  p-2">Gifter</span>
+            <div>
+                <img src="~/Content/Gifter.png" class="img-fluid img-fluid" />
+            </div>
+            <div>
+                <span class="badge bg-secondary">C#</span>
+                <span class="badge bg-secondary">ASP.NET</span>
+                <span class="badge bg-secondary">MVC</span>
+                <span class="badge bg-secondary">SQL</span>
+                <span class="badge bg-secondary">Postres SQL</span>
+                <span class="badge bg-secondary">Entity Framework</span>
+                <span class="badge bg-secondary">LINQ</span>
+            </div>
+            <p class="">
+                Gifter to serwis internetowy służący do zarządzania prezentów dla znajomych, rodziny i przyjaciół.
+                Do wykonania użyłem ASP.NET MVC, hash-owanie haseł użytkowników operacje CRUD na bazach danych oraz rozdziliłem użytkowników i dane na 2 bazy w celu zwiększenia bezpieczeństwa.
+            </p>
+            <a class="btn btn-dark" target="_blank" href="https://github.com/Goldin190/Gifter" role="button">GitHub Link</a>
+        </div>
+    </div>
+</div>

@@ -20,6 +20,7 @@ body {
     color: white;
     background-image: url("Background.jpg");
 }
+
 .transparent-item {
     background-color: #3b444b90;
     color: white;
@@ -31,7 +32,7 @@ body {
 }
 .cv-photo{
     height: 10vh;
-    width: 10 vw;
+    width: 10vw;
 }
 .spread{
     flex-direction: column;
